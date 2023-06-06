@@ -1,2 +1,4 @@
 <?php
-echo ('hello and welcome to active-care.ru!');
+session_start();
+include"../src/functions.php";
+include "../src/route.php";
